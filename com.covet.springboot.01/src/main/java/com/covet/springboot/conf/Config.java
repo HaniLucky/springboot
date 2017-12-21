@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * 		@Service @Component @Repository @Controller 的类,并注册为Bean
  */
 @Configuration
-@ComponentScan("com.covet.springboot.service")
+@ComponentScan(value= {"com.covet.springboot.service"})
 public class Config {
 
 }

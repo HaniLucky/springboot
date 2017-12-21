@@ -1,5 +1,4 @@
-import javax.jws.soap.SOAPBinding.Use;
-
+package com.covet.springboot.conf;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
