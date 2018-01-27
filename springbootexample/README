@@ -1,0 +1,16 @@
+Spring Boot + Spring MVC + Spring Data JPA + EasyUI  实现人员列表查询
+SpringBoot工程
+	基于mysql5.0+ maven3.3
+	实现热部署
+	Dao层使用JPA规范
+	端口8080
+	前端easyUI
+	
+启动方式
+	导入/sql/demo.sql
+	启动StarterApplication主方法
+	访问controller
+	
+	
+com.xxx.example.demo  入门demo
+com.xxx.example.user  Spring Boot + Spring MVC + Spring Data JPA + EasyUI  Demo

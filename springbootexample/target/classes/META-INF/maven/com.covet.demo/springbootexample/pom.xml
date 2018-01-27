@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- 指定JDK版本 -->
+	<properties>
+		<!-- springboot官方建议使用jdk1.8 -->
+		<java.version>1.8</java.version>
+	</properties>
+
+	<!-- 启动依赖 -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.6.RELEASE</version>
+	</parent>
+
+	<!-- 当前工程版本信息 -->
+	<groupId>com.covet.demo</groupId>
+	<artifactId>springbootexample</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<!-- 依赖 -->
+	<dependencies>
+		<!-- web工程依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- spring-boot热部署组件 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+
+
+		<!-- mysql连接驱动 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.6</version>
+		</dependency>
+
+		<!-- JPA[中文名Java持久层API JPA实现方式] -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>1.4.4.RELEASE</version>
+		</dependency>
+
+		<!-- SpringBoot的Mybatis启动器[mybatis实现方式] -->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,6 @@
+com\xxx\example\user\service\impl\UserServiceImpl.class
+com\xxx\example\user\service\UserService.class
+com\xxx\example\user\vo\User.class
+com\xxx\example\StarterApplication.class
+com\xxx\example\user\controller\UserController.class
+com\xxx\example\user\dao\UserMapper.class
