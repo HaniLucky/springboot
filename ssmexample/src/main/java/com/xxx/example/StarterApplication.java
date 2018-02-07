@@ -23,7 +23,6 @@ public class StarterApplication {
 		application.setBannerMode(Mode.OFF);
 		application.run(args);
 		//-----  end 不带图标启动 -----
-		
 	}
 
 }
