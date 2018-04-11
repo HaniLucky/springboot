@@ -1,4 +1,4 @@
-package com.xxx.service;
+package com.xxx.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

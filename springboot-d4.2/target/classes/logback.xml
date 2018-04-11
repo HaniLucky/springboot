@@ -9,7 +9,7 @@
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>logbak: %d{HH:mm:ss.SSS} %logger{36} - %msg%n</pattern>
+            <pattern>测试标题: %d{HH:mm:ss.SSS} %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 

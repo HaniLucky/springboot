@@ -22,6 +22,11 @@ public class DemoAnnoController {
 	// http://127.0.0.1:8080/springboot-d4.2/anno/pathvar/333
 	@RequestMapping(value = "/pathvar/{str}" , produces = "text/plain;charset=UTF-8")
 	public @ResponseBody String demoPathVar(@PathVariable String str ,HttpServletRequest request){
+		/*
+		 * http://127.0.0.1:8080/springboot-d4.2/anno/pathvar/xx.yy
+		 * 获取不到.后面的yy的内容
+		 * 需要添加路径匹配参数配置
+		 */
 		return "url:"+request.getRequestURL() + "can access , Str :" + str ;
 	}
 	

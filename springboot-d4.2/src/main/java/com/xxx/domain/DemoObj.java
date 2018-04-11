@@ -2,21 +2,21 @@ package com.xxx.domain;
 
 public class DemoObj {
 
-	private String id ;
+	private Long id ;
 	private String name;
 	
 	public DemoObj() {
 		super();
 	}
-	public DemoObj(String id, String name) {
+	public DemoObj(Long id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	public String getName() {
